@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+    defaultConfig {
+        applicationId "com.penglab.hi5"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters "armeabi-v7a", "x86","arm64-v8a","x86_64"
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    buildTypes {
+        debug {
+        }
+        sdk {
+        }
+
+        release {
+            minifyEnabled false
+            // 移除无用的resource文件
+//            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation files('libs\\jxl-2.6.jar')
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+    implementation files('libs\\pinyin4j-2.5.0.jar')
+    api project(path: ':uikit')
+    implementation project(path: ':logger')
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'cn.carbs.android:MDDialog:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'org.apache.commons.io:commonsIO:2.5.0'
+
+    implementation 'org.jgrapht:jgrapht-core:1.4.0'
+    implementation 'com.github.beyka:androidtiffbitmapfactory:0.9.8.7'
+
+    // debugImplementation because LeakCanary should only run in debug builds.
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.2'
+    implementation files('libs\\Jama-1.0.3.jar')
+
+    //版本号在26以及以上即可
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:cardview-v7:24.2.1'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.lxj:xpopup:1.9.0' //就是androidx版本
+
+    implementation 'com.xw.repo:bubbleseekbar:3.20-lite'
+    implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+
+    //for auto test
+    androidTestImplementation 'com.android.support.test.uiautomator:uiautomator-v18:2.1.3'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+
+    implementation 'com.readystatesoftware.systembartint:systembartint:1.0.4'
+
+    implementation 'com.huawei.hms:push:4.0.4.301'
+
+    //for litepal: local database
+    implementation 'org.litepal.guolindev:core:3.2.3'
+
+    // for agora video & audio
+    implementation 'io.agora.rtc:full-sdk:3.3.1'
+
+    // for agora im
+    implementation 'io.agora.rtm:rtm-sdk:1.4.1'
+
+    // for log info store
+    implementation 'com.github.iflove:Logcat:2.1.2'
+    // 子模块用
+    implementation 'com.github.iflove.Hunter:logExtlibrary:logExtlibrary-1.0'
+
+}

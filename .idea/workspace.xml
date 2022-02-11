@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dff42de-8b68-45dc-a947-dac24543f145" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1zcGlueeDUS1I2KxWKylmvKAfdq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="D:/Android/SDK" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dff42de-8b68-45dc-a947-dac24543f145" name="Default Changelist" comment="" />
+      <created>1634440116127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634440116127</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="307" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634441023082">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="307" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1634441023082" />
+    <state x="650" y="278" key="AndroidProcessChooserDialog" timestamp="1634440675363">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="650" y="278" key="AndroidProcessChooserDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1634440675363" />
+    <state x="633" y="288" key="FileChooserDialogImpl" timestamp="1634441071512">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="633" y="288" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1634441071512" />
+    <state x="354" y="177" key="SettingsEditor" timestamp="1634440687284">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="354" y="177" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1634440687284" />
+  </component>
+</project>

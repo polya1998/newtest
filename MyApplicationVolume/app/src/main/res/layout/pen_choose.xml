@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center|left"
+            android:text="PenColor"
+            android:textColor="#bb333333" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/pencolor"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginLeft="6dp"-->
+<!--            android:layout_toRightOf="@id/title1"-->
+<!--            android:background="@null"-->
+<!--            android:hint="0(black), 1(white), 2(red), 3(blue), 4(green), 5(purple), 6(yellow)"-->
+<!--            android:textColor="#ee333333"-->
+<!--            android:textCursorDrawable="@drawable/color_cursor" />-->
+
+        <Spinner
+            android:id="@+id/pencolor"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:entries="@array/color"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/pencolor"
+            android:layout_alignLeft="@id/pencolor"
+            android:layout_alignRight="@id/pencolor"
+            android:background="#33333333" />
+    </RelativeLayout>
+
+
+</LinearLayout>

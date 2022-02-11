@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent_light">#FF1B60</color>
+    <color name="colorWise">#87CEFA</color>
+    <color name="button_normal">#B0C4DE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#E0E0E0</color>
+
+
+    <color name="colorDark">#3700B3</color>
+    <color name="colorMid">#6200EE</color>
+
+    <color name="colorMid_yellow">#FFA000</color>
+    <color name="colorDark_yellow">#FF6F00</color>
+
+
+    <color name="white_ru">#D2E9FF</color>
+
+    <color name="black">#000</color>
+    <color name="blue">#32c5f3</color>
+    <color name="green">#4ACC60</color>
+    <color name="pink">#6A2290</color>
+    <color name="blue_light">#53687D</color>
+    <color name="yellow">#FF7F24</color>
+    <color name="pink_dark">#4B0082</color>
+
+    <color name="character_bg">#CCC</color>
+    <color name="colorLightDark">#464644</color>
+    <color name="colorDarkGreen">#02bf1f</color>
+    <color name="colorLightDarkLevel2">#40403e</color>
+    <color name="colorDarkGrey">#abaaaa</color>
+    <color name="color_blue_3a9efb">#3a9efb</color>
+
+    <color name="color_red_f04c62">#f04c62</color>
+    <color name="help_color">#ff999999</color>
+    <color name="color_grey_666666">#666666</color>
+
+    <!-- main bg color -->
+    <color name="g_child_page_bg_color">#FFFFFF</color>
+    <color name="main_bg_color">#FFFFFF</color>
+
+
+    <color name="color_network_bar_bg_ee4b62">#ee4b62</color>
+    <color name="color_yellow_fcf3cd">#fcf3cd</color>
+
+    <color name="color_blue_splash_screen">#3a9efb</color>
+    <color name="black_alpha_128">#80000000</color>
+
+
+    <!-- Video Activity -->
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+
+    <!-- New login Activity -->
+    <color name="login_line_color">#dededf</color>
+    <color name="login_input_active">#31b968</color>
+    <color name="login_other_color">#cacaca</color>
+    <color name="account_input_bg_color">#33ffffff</color>
+    <color name="account_lock_bg">#ff43815c</color>
+    <color name="account_lock_font_color">#FF68997C</color>
+    <color name="account_input_color">#c9c9c9</color>
+    <color name="account_pressed_true">#14b94d</color>
+
+    <color name="lock_bg">#FFA07A</color>
+    <color name="lock_font_color">#ff999999</color>
+    <color name="pressed_true">#F6765C</color>
+
+
+    <color name="bg_press">#ebebeb</color>\
+    <color name="bg_press_material">#d4d4d4</color>
+
+
+
+
+</resources>
